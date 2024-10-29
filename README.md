@@ -15,7 +15,8 @@
   - DHT sensor library by Adafruit 
 - With help of Circuit Diagrams connect manually rfid with both ESP's
 - One ESP have conection to DC FAN as well as DHT11 in my case to sense and operate DC FAN
-- connected accordingly to the wiring diagram provided in <folder_name>
+- connected accordingly to the wiring diagram provided.
+- reference <[link](https://youtu.be/pJLjFm4Ipro?si=R0mi3gIHKcW8hYkH)>
 
 ## Data generation in google sheets using appscript
 - Create a Spreadsheet in google sheet.
