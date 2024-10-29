@@ -20,10 +20,10 @@
 
 ## Data generation in google sheets using appscript
 - Create a Spreadsheet in google sheet.
-- Create 3 sheets one for data entry(Inventory going IN/OUT), another one for temperature,huumidity,etc stuff, Last one showing manipulated data from the first sheet, which update
+- Create 3 sheets one for data entry(Inventory going IN/OUT), another one for temperature,humidity,etc stuff, Last one showing manipulated data from the first sheet, which update
   itself whenever the first sheeet is updating.
-- **do note** the SpreadSheetID from the link shown in url bar at the top for ex: ("https://docs.google.com/spreadsheets/d/1DAcC1ekiehjSFaSDNk1JmukOC9fG-Y4tADqwi9kRdF8/edit?gid=811695338#gid=811695338")
-  here the spreadsheetid is ("1DAcC1ekiehjSFaSDNk1JmukOC9fG-Y4tADqwi9kRdF8")
+- **do note** the SpreadSheetID from the link shown in url bar at the top for ex: ("https://docs.google.com/spreadsheets/d/3DAcC1ekiehjSFaSDNk1JmukOC9fG-Y4tADqwi9kRdF8/edit?gid=811695338#gid=811695338")
+  here the spreadsheetid is ("3DAcC1ekiehjSFaSDNk1JmukOC9fG-Y4tADqwi9kRdF8")
 
 ##  AppScript code
 - under extensions > Apps Script
@@ -34,6 +34,7 @@
 
 ## Coding Setup in Arduino IDE
 - first thing is to write some data in your rfid tags for that refer <codefile>
+- after having data in rfid tags deploy these two codes accordingly for entry side ESP32 and exit side ESP32 [ESP32 Codes](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/ESP32%20Codes) 
 - now deploy two codes in each of the ESP accordingly from [ESP32 Codes](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/ESP32%20Codes)
 
 ## Finally Create a customized UI with AppSheet
