@@ -33,7 +33,8 @@
 - the code for each script is in [Appscript](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/AppScript)
 
 ## Coding Setup in Arduino IDE
-- first thing is to write some data in your rfid tags for that refer <codefile>
+- reference how to write in rfid tag <https://youtu.be/npEjhi0IHKo?si=bXEsZQ4CZ5y_AAbJ> 
+- first thing is to write some data in your rfid tags for that refer **rfid_write_data.ino** file
 - after having data in rfid tags deploy these two codes accordingly for entry side ESP32 and exit side ESP32 [ESP32 Codes](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/ESP32%20Codes) 
 - now deploy two codes in each of the ESP accordingly from [ESP32 Codes](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/ESP32%20Codes)
 
