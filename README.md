@@ -37,5 +37,5 @@
 
 ## Finally Create a customized UI with AppSheet
 - import sheets to use those data and create a graphical interface
-- Layout of my Inventory Tracker app is in <folder_name> refer
+- Layout of my Inventory Tracker app is in <[Project Model Showcase](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/Project%20Model%20Showcase)> refer
 - do refer <[Appsheet yt channel](www.youtube.com/@AppSheetApps)>
