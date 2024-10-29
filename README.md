@@ -17,6 +17,19 @@
 - One ESP have conection to DC FAN as well as DHT11 in my case to sense and operate DC FAN
 - connected accordingly to the wiring diagram provided in <folder_name>
 
+## Data generation in google sheets using appscript
+- Create a Spreadsheet in google sheet.
+- Create 3 sheets one for data entry(Inventory going IN/OUT), another one for temperature,huumidity,etc stuff, Last one showing manipulated data from the first sheet, which update
+  itself whenever the first sheeet is updating.
+- do note the spreadsheetid from the link shown in url bar at the top for ex: ("https://docs.google.com/spreadsheets/d/1DAcC1ekiehjSFaSDNk1JmukOC9fG-Y4tADqwi9kRdF8/edit?gid=811695338#gid=811695338")
+  here the spreadsheetid is ("1DAcC1ekiehjSFaSDNk1JmukOC9fG-Y4tADqwi9kRdF8")
+
+##  Appscript code
+- under extensions > Apps Script
+- now click + and select script like wise create another script too, one for getting inventory data(tablet pack details mfg, expiry, time, data) from ESP, publishing it in 1st sheet
+- and another one for getting storage conditions fetched from ESP32 and publishing in 2nd sheet
+- the code for each script is in <folder_name>
+
 ## Coding Setup in Arduino IDE
 - first thing is to write some data in your rfid tags for that refer <codefile>
-- now deploy two codes in each of the ESP from <[ESP32 Codes](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/ESP32%20Codes)>
+- now deploy two codes in each of the ESP accordingly from <[ESP32 Codes](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/ESP32%20Codes)>
