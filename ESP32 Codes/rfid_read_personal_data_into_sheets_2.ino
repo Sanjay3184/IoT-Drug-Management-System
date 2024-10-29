@@ -102,7 +102,7 @@ void loop() {
     }
   }
 
-  String inputString = total1;
+  String inputString = total1; //total string would be in the format may23/jun25 like that
   String mfg, expr;
 
   int splitIndex = inputString.indexOf('/');
@@ -155,11 +155,11 @@ void loop() {
   for( int i=0; i<medinf.length(); i++)
   {
     if( medinf[i]!=' ')
-      med+=medinf[i];
+      med+=medinf[i]; //tablet name
   }
 
   for( int i=1; i<mfg.length(); i++)
-    mf+=mfg[i];
+    mf+=mfg[i]; //tablet mfg date
   
   // Create a URL for sending or writing data to Google Sheets.
   String Send_Data_URL = Web_App_URL + "?sts=write";
