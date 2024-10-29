@@ -29,7 +29,7 @@
 - now click + and select script like wise create another script too, one for getting inventory data(tablet pack details mfg, expiry, time, data) from ESP, publishing it in 1st sheet
 - and another one for getting storage conditions fetched from ESP32 and publishing in 2nd sheet
 - after deploying each script via deploy option, **do note** WEB APP URL link to make ESP32 use it to communicate its data to appscript->sheets 
-- the code for each script is in <folder_name>
+- the code for each script is in <[Appscript](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/AppScript)>
 
 ## Coding Setup in Arduino IDE
 - first thing is to write some data in your rfid tags for that refer <codefile>
