@@ -19,4 +19,4 @@
 
 ## Coding Setup in Arduino IDE
 - first thing is to write some data in your rfid tags for that refer <codefile>
-- now deploy two codes in each of the ESP
+- now deploy two codes in each of the ESP from <ESP32 Codes>
