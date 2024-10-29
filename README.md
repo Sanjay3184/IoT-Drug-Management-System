@@ -16,7 +16,7 @@
 - With help of Circuit Diagrams connect manually rfid with both ESP's
 - One ESP have conection to DC FAN as well as DHT11 in my case to sense and operate DC FAN
 - connected accordingly to the wiring diagram provided.
-- reference <[link](https://youtu.be/pJLjFm4Ipro?si=R0mi3gIHKcW8hYkH)>
+- reference [link](https://youtu.be/pJLjFm4Ipro?si=R0mi3gIHKcW8hYkH)
 
 ## Data generation in google sheets using appscript
 - Create a Spreadsheet in google sheet.
@@ -30,13 +30,13 @@
 - now click + and select script like wise create another script too, one for getting inventory data(tablet pack details mfg, expiry, time, data) from ESP, publishing it in 1st sheet
 - and another one for getting storage conditions fetched from ESP32 and publishing in 2nd sheet
 - after deploying each script via deploy option, **do note** WEB APP URL link to make ESP32 use it to communicate its data to appscript->sheets 
-- the code for each script is in <[Appscript](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/AppScript)>
+- the code for each script is in [Appscript](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/AppScript)
 
 ## Coding Setup in Arduino IDE
 - first thing is to write some data in your rfid tags for that refer <codefile>
-- now deploy two codes in each of the ESP accordingly from <[ESP32 Codes](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/ESP32%20Codes)>
+- now deploy two codes in each of the ESP accordingly from [ESP32 Codes](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/ESP32%20Codes)
 
 ## Finally Create a customized UI with AppSheet
 - import sheets to use those data and create a graphical interface
-- Layout of my Inventory Tracker app is in <[Project Model Showcase](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/Project%20Model%20Showcase)> refer
+- Layout of my Inventory Tracker app is in [Project Model Showcase](https://github.com/Sanjay3184/IoT-Driven-Drug-Management-System/tree/main/Project%20Model%20Showcase) refer
 - do refer <[Appsheet yt channel](www.youtube.com/@AppSheetApps)>
