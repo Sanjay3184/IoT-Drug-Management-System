@@ -38,3 +38,4 @@
 ## Finally Create a customized UI with AppSheet
 - import sheets to use those data and create a graphical interface
 - Layout of my Inventory Tracker app is in <folder_name> refer
+- do refer <[Appsheet yt channel](www.youtube.com/@AppSheetApps)>
